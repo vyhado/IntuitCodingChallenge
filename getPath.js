@@ -25,7 +25,6 @@ function getPath(value) {
 
 
     var resultArr = [];  // return in array in case there are multiple paths found 
-    // window.alert (value);  // print out input value
     for (var i = 0; i < data.itemList.items.length; i++) {
         var result;
         var id = data.itemList.items[i].id;
